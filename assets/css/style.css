@@ -300,7 +300,6 @@ a:hover {
     color: #777777;
 }
 
-
 .mainbody img {
     padding-bottom: 20px; 
     clear: none;
@@ -317,6 +316,26 @@ a:hover {
     text-align: center;
     }
 }
+
+.formbody {
+    margin-top: 75px;
+    width: 400px;
+    height: auto;
+    display: inline-block;
+    padding: 10px 25px 25px 25px;
+    background-color: #ffffff;
+    color: #777777;
+ }
+
+.portfoliobody {
+    margin-top: 75px;
+    width: 400px;
+    height: auto;
+    display: inline-block;
+    padding: 10px 25px 25px 25px;
+    background-color: #ffffff;
+    color: #777777;
+ }
 
  /* added screen sizes*/
  
@@ -335,10 +354,28 @@ a:hover {
     padding-top: 15px;
     margin-right: 20px;
 }
+  
+/* issue with sidebar not sized margin top closer
+to portfoliobody nor formbody */ 
+
+.portfoliobody {
+    width: 65%;
+    height: 500px;
+    display: block; 
+}
+
+/* issue with sidebar not sized margin top closer
+to portfoliobody nor formbody */ 
+
+.formbody {
+    width: 65%;
+    height: auto;
+    display: block; 
+}
 
 .sidebar {
     width: 65%;
-    float: left;
+    float: none;
     height: 100px;
     margin-top: 25px;
     margin-left: 0px;
@@ -353,17 +390,7 @@ a:hover {
     float: left;
     padding-left: 20px; 
     border-bottom: 1px solid #e7e7e7; 
-}    
-
-.portfoliobody {
-    width: 65%;
-    height: 500px;
-    display: block; 
-}
-
-
-
-
+    }  
 }    
 
  /* width @ 640px because phone layout landscape */
@@ -381,6 +408,18 @@ a:hover {
     padding-bottom: 20px; 
     padding-top: 15px;
     margin-right: 20px;
+}
+
+.formbody {
+    width: 55%;
+    margin-top: 125px;
+    height: auto;
+}
+
+.portfoliobody {
+    width: 55%;
+    margin-top: 125px;
+    height: auto;
 }
 
 .sidebar {
