@@ -87,6 +87,7 @@ li a.header-right {
     text-align: center;
     background-color: white;
     position: fixed;
+    z-index: 100;
 }
 
 .header-right {
@@ -443,8 +444,8 @@ to portfoliobody nor formbody */
 .header-right {
     display: block;
     width: 100%;
-    padding: 1px;
-    margin-left: -176px;
+    margin: auto;
+    margin-left: -29%;
     position: static;
 }
 
